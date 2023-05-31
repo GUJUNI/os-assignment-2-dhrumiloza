@@ -1,0 +1,20 @@
+Name - Dhrumil oza
+Roll.no    - 26
+Course     - MCA-2
+Subject    - Operating Systems
+Assignment - Assignment-2
+
+--------------------------------------------------------------------------------------------
+
+4. Write a script that takes file name from user and substitute all spaces
+“ “ with # value. (Use grep/sed)
+----------------------------------------------------------------------------------------------------------------------------------
+echo "enter file"
+read file
+sed -i 's/ /#/g' $file
+
+output:-
+
+#####ik
+hello
+#how#are#you

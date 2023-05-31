@@ -1,0 +1,58 @@
+Name - Dhrumil oza
+Roll.no    - 26
+Course     - MCA-2
+Subject    - Operating Systems
+Assignment - Assignment-2
+
+--------------------------------------------------------------------------------------------
+1.Write a script that takes file name from user and display all line
+starting with a or b or c. (Use grep/sed)
+---------------------------------------------------------------------------------------------
+
+echo "enter file"
+read file
+grep -E "^[abc]" $file
+
+
+output:-
+enter file
+demo1
+dhru
+mil
+oza
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
